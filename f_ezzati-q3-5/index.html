@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h2>capital city</h2>
+        <div class="wrapper">
+            <ul class="tabList" id="tabList">
+                <li class="activeTab" index="0" onclick="active(0)">london</li>
+                <li index="1" onclick="active(1)">tehran</li>
+                <li index="2" onclick="active(2)">tokyo</li>
+            </ul>
+            <div class="tabPanel" id="panel">
+                <div index="0" class="activePanel">london</div>
+                <div index="1">tehran</div>
+                <div index="2">tokyo</div>
+            </div>
+
+        </div>
+        
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
